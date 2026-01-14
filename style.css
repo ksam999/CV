@@ -1,0 +1,117 @@
+/* Global reset because browsers love chaos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Table used in CV layout */
+table {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Table cells */
+td {
+    vertical-align: top;
+    padding: 5px 10px;
+}
+
+/* Lists */
+ol, ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Images */
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+/* Contact page form */
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    max-width: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    margin-top: 12px;
+    padding: 8px 14px;
+    border: none;
+    background-color: #0066cc;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #004f99;
+}
